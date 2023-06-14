@@ -1,0 +1,160 @@
+[
+    {
+      "id": "6486e11a1400ea85c07796f2",
+      "email": "miriam_boyd@corepan.loans",
+      "roles": [
+        "member",
+        "admin"
+      ],
+      "apiKey": "9c5b3c85-4b20-4b98-bbc9-b684394d638c",
+      "profile": {
+        "dob": "1989-01-15",
+        "name": "Miriam Boyd",
+        "about": "Ipsum exercitation eu ipsum ipsum est occaecat ad do. Ex adipisicing in voluptate cillum elit consequat magna veniam veniam ut.",
+        "address": "34 Jefferson Avenue, Tuttle, New Jersey",
+        "company": "Corepan",
+        "location": {
+          "lat": 59.573668,
+          "long": -46.028686
+        }
+      },
+      "username": "miriam89",
+      "createdAt": "2010-02-01T21:06:00.965Z",
+      "updatedAt": "2010-02-02T21:06:00.965Z"
+    },
+    {
+      "id": "6486e11ab14d7dcd93882b5c",
+      "email": "hale_burt@orbean.erni",
+      "roles": [
+        "member",
+        "admin"
+      ],
+      "apiKey": "17893739-43ce-4778-9e72-f383e6bfe7f4",
+      "profile": {
+        "dob": "1989-08-02",
+        "name": "Hale Burt",
+        "about": "Labore velit eiusmod adipisicing irure et ipsum id esse amet sint nulla voluptate quis. Labore elit in est cupidatat ea commodo dolor pariatur mollit laboris.",
+        "address": "10 Maple Avenue, Vernon, Iowa",
+        "company": "Orbean",
+        "location": {
+          "lat": 7.053001,
+          "long": -5.833653
+        }
+      },
+      "username": "hale89",
+      "createdAt": "2010-06-09T21:42:02.039Z",
+      "updatedAt": "2010-06-10T21:42:02.039Z"
+    },
+    {
+      "id": "6486e11aac8e9c025ac01bea",
+      "email": "brenda_finley@xinware.xin",
+      "roles": [
+        "owner"
+      ],
+      "apiKey": "91a4b779-a46d-4148-bec6-555acdb972d7",
+      "profile": {
+        "dob": "1991-05-11",
+        "name": "Brenda Finley",
+        "about": "Laboris elit est aliquip consectetur est. Minim ullamco nostrud magna exercitation.",
+        "address": "47 Hoyts Lane, Englevale, North Dakota",
+        "company": "Xinware",
+        "location": {
+          "lat": -8.931273,
+          "long": -17.750239
+        }
+      },
+      "username": "brenda91",
+      "createdAt": "2014-02-26T11:41:29.746Z",
+      "updatedAt": "2014-02-27T11:41:29.746Z"
+    },
+    {
+      "id": "6486e11a44cbbc9c44c389de",
+      "email": "abbott_flores@paragonia.mtn",
+      "roles": [
+        "guest",
+        "member"
+      ],
+      "apiKey": "6591e355-e01e-404b-8406-d37485893d5e",
+      "profile": {
+        "dob": "1994-04-22",
+        "name": "Abbott Flores",
+        "about": "Irure irure excepteur nulla Lorem reprehenderit fugiat reprehenderit quis ex. Adipisicing exercitation officia ex pariatur Lorem aliquip in eu.",
+        "address": "61 Conway Street, Charco, Ohio",
+        "company": "Paragonia",
+        "location": {
+          "lat": 26.061587,
+          "long": -124.786237
+        }
+      },
+      "username": "abbott94",
+      "createdAt": "2011-05-23T19:20:36.588Z",
+      "updatedAt": "2011-05-24T19:20:36.588Z"
+    },
+    {
+      "id": "6486e11a41577e482cdfc557",
+      "email": "perkins_rios@datagene.gh",
+      "roles": [
+        "owner"
+      ],
+      "apiKey": "d7f488a8-c072-4cff-b617-de7e1ca90c3c",
+      "profile": {
+        "dob": "1994-08-20",
+        "name": "Perkins Rios",
+        "about": "Consequat in pariatur dolore anim mollit. Culpa id velit anim est consequat ea reprehenderit.",
+        "address": "31 Lawton Street, Draper, Oregon",
+        "company": "Datagene",
+        "location": {
+          "lat": 49.051149,
+          "long": -48.457747
+        }
+      },
+      "username": "perkins94",
+      "createdAt": "2011-02-02T05:27:11.488Z",
+      "updatedAt": "2011-02-03T05:27:11.488Z"
+    },
+    {
+      "id": "6486e11a81fdaf914c33a803",
+      "email": "daniels_larsen@egypto.bond",
+      "roles": [
+        "guest",
+        "owner"
+      ],
+      "apiKey": "dd15cd51-7283-4176-bb31-58a0ffa3abeb",
+      "profile": {
+        "dob": "1990-08-09",
+        "name": "Daniels Larsen",
+        "about": "Sit non do esse in. In incididunt aute proident proident deserunt mollit voluptate eiusmod veniam mollit commodo ex.",
+        "address": "93 Howard Place, Holcombe, Pennsylvania",
+        "company": "Egypto",
+        "location": {
+          "lat": -69.067339,
+          "long": -167.943305
+        }
+      },
+      "username": "daniels90",
+      "createdAt": "2011-01-29T08:58:03.502Z",
+      "updatedAt": "2011-01-30T08:58:03.502Z"
+    },
+    {
+      "id": "6486e11ac68025be81e990d8",
+      "email": "candace_mccarthy@geeketron.menu",
+      "roles": [
+        "guest"
+      ],
+      "apiKey": "e7b5c4db-28d3-4f31-a7ec-a03e32206744",
+      "profile": {
+        "dob": "1989-01-30",
+        "name": "Candace Mccarthy",
+        "about": "Elit ad magna non nisi anim nisi. Amet do ipsum ut magna aliquip.",
+        "address": "36 Hunts Lane, Coldiron, North Carolina",
+        "company": "Geeketron",
+        "location": {
+          "lat": -46.998452,
+          "long": -86.337004
+        }
+      },
+      "username": "candace89",
+      "createdAt": "2013-07-13T19:11:40.941Z",
+      "updatedAt": "2013-07-14T19:11:40.941Z"
+    }
+  ]

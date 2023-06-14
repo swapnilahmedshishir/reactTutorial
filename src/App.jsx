@@ -8,6 +8,8 @@ import {v4 as uuidv4} from 'uuid'
 import { ReactBootstrap } from './component/ReactBootstrap/ReactBootstrap';
 import State from './component/State/state';
 import EventHandler from './component/EventHandler/EventHandler';
+import UpadateState from './UpdateState/UpadateState';
+import StopPropagation from './component/stopPropagation/StopPropagation';
 
 
 function App() {
@@ -15,9 +17,6 @@ function App() {
   return (
     <div className='app'>
        <h1 className='heading'>ToDo App</h1>
-       <EventHandler></EventHandler>
-
-
 
 
 
@@ -25,6 +24,11 @@ function App() {
 
 
         {
+
+          //<EventHandler></EventHandler>
+          //<UpadateState></UpadateState>
+        //<StopPropagation></StopPropagation>
+
           // Data.map((items ,index) =>{
           //   return <Card key={index} cardTitle={items.email} userProfil = {items.profile}>
               

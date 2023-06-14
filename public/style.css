@@ -31,3 +31,10 @@
     text-align: justify;
     margin-bottom: 5px;
 }
+
+.parentItem{
+    background-color: #ffda77;
+    padding: 20px;
+    border: 2px solid red;
+    margin: 20px;
+}

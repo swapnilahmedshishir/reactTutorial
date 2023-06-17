@@ -12,6 +12,7 @@ import UpadateState from './UpdateState/UpadateState';
 import StopPropagation from './component/stopPropagation/StopPropagation';
 import From_Data_Collect from './component/FROM/From_Data_Collect';
 import From from './component/FROM/From';
+import { Passing_data_prent } from './component/State_Lifting/Passing_data_prent';
 
 
 function App() {
@@ -19,14 +20,14 @@ function App() {
   return (
     <div className='app'>
        <h1 className='heading'>ToDo App</h1>
-    <From></From>
-
+    
+    <Passing_data_prent></Passing_data_prent>
 
 
 
         {
-    //<From_Data_Collect></From_Data_Collect>
-//
+    //<From></From>
+//<From_Data_Collect></From_Data_Collect>
           //<EventHandler></EventHandler>
           //<UpadateState></UpadateState>
         //<StopPropagation></StopPropagation>

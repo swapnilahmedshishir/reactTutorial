@@ -10,17 +10,18 @@ export default function From_Data_Collect() {
 
   const handleChange = (e) => {
     setFormData({...formData , [e.target.name] : e.target.value});
-    e.stopPropagation();
+    // e.stopPropagation();
   };
+
   const handleSubmite = (e) => {
-   
+   console.log(formData);
     e.preventDefault();
   }
-  console.log(formData);
+  
   return (
     <div>
       
-        <form>
+        <form onSubmit={handleSubmite}>
           <label htmlFor="text">Name: </label>
           <input type="text" name="name" value={name} onChange={handleChange} />
           <br />
@@ -30,7 +31,7 @@ export default function From_Data_Collect() {
           <label htmlFor="password">Password: </label>
           <input type="password" name="password" value={password} onChange={handleChange} />
           <br />
-          <button type="submit" onClick={handleSubmite}>Submit</button>
+          <button type="submit" >Submit</button>
         </form>
       
     </div>

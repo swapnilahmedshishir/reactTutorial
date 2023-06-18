@@ -10,14 +10,14 @@ export const Passing_data_prent = () => {
     }
     
     const comeMySon = ()=>{
-        setSon(true);
+        setSon(!son);
         console.log(son);
     }
 
   return (
     <div style={{marginLeft:"30px"}}>
         <h2>HI my son I am your prents</h2>
-        <Button onClick={comeMySon} variant='success'>come here my son </Button>
+        <Button onClick={comeMySon} variant='success'>{son?"Go to my son":"Come here my son" }</Button>
         {son ? (
         <Passing_data_child_prent parentData={recivedChild} />
       ) : null

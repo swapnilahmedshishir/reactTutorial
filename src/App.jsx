@@ -14,6 +14,7 @@ import From_Data_Collect from './component/FROM/From_Data_Collect';
 import From from './component/FROM/From';
 import { Passing_data_prent } from './component/State_Lifting/Passing_data_prent';
 import { Formik } from './component/Formik/Formik';
+import { Toggle } from './component/Toggle/Toggle';
 
 
 function App() {
@@ -22,12 +23,13 @@ function App() {
     <div className='app'>
        <h1 className='heading'>ToDo App</h1>
 
-    <Formik></Formik>
+    <Toggle></Toggle>
 
 
         {
     //<From></From>
 //<From_Data_Collect></From_Data_Collect>
+//<Formik></Formik>
 //<Passing_data_prent></Passing_data_prent>
 // 
           //<EventHandler></EventHandler>

@@ -13,6 +13,7 @@ import StopPropagation from './component/stopPropagation/StopPropagation';
 import From_Data_Collect from './component/FROM/From_Data_Collect';
 import From from './component/FROM/From';
 import { Passing_data_prent } from './component/State_Lifting/Passing_data_prent';
+import { Formik } from './component/Formik/Formik';
 
 
 function App() {
@@ -20,14 +21,15 @@ function App() {
   return (
     <div className='app'>
        <h1 className='heading'>ToDo App</h1>
-    
-    <Passing_data_prent></Passing_data_prent>
 
+    <Formik></Formik>
 
 
         {
     //<From></From>
 //<From_Data_Collect></From_Data_Collect>
+//<Passing_data_prent></Passing_data_prent>
+// 
           //<EventHandler></EventHandler>
           //<UpadateState></UpadateState>
         //<StopPropagation></StopPropagation>

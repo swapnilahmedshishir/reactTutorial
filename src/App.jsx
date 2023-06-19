@@ -16,6 +16,8 @@ import { Passing_data_prent } from './component/State_Lifting/Passing_data_prent
 import { Formik } from './component/Formik/Formik';
 import { Toggle } from './component/Toggle/Toggle';
 import { FAQS } from './component/FAQ/FAQS';
+import { UseEffect } from './component/Fetch_data_useEffect/UseEffect';
+import CUSTOOMHOOK from './component/CustomHook/CUSTOOMHOOK';
 
 
 function App() {
@@ -24,10 +26,13 @@ function App() {
     <div className='app'>
        <h1 className='heading'>ToDo App</h1>
 
-    <FAQS></FAQS>
+    <CUSTOOMHOOK></CUSTOOMHOOK>
 
 
         {
+
+          //<UseEffect></UseEffect>
+          // <FAQS></FAQS>
     //<From></From>
 //<From_Data_Collect></From_Data_Collect>
 //<Formik></Formik>

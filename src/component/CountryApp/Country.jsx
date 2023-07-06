@@ -1,17 +1,22 @@
 import React from 'react'
+import { Button } from 'react-bootstrap';
 
 const Country = (props) => {
+  const handleCountryRemove = (name) =>{
+    props.onCountryRemove(name)
+  }
     
     const {name,flags,capital,population, area} = props.country;
   return (
-    <article>
-        <div>
-            <img src={flags.png} alt={name.common}/>
-            <h3>Name: {name.common}</h3>
-            <h3>Capital: {capital}</h3>
-            <h3>Population: {population}</h3>
-            <h3>Area: {area}</h3>
-        </div>
+    <article className='country_card'>
+        <div className='country'>
+            <img className='flag' src={flags.png} alt={name.common}/>
+            <h4>Name: {name.common}</h4>
+            <h4>Capital: {capital}</h4>
+            <h4>Population: {population}</h4>
+            <h4>Area: {area}</h4>
+            <Button className='btn' onClick={()=>{handleCountryRemove(name.common)}}>Remove Country</Button>
+        </div>  
       
     </article>
   )

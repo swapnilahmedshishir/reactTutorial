@@ -23,6 +23,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import UseRefHook from './component/HOOKS/useRef_Hooks/UseRefHook';
 import UseReducer from "./component/HOOKS/UseReducer";
 import UseReducerMain from "./component/HOOKS/UseReducer/UseReducerMain";
+import ParentComponet from "./component/HOOKS/useContext/ParentComponet";
 
 function App() {
   // console.log(Data);
@@ -31,8 +32,7 @@ function App() {
       <h1 className="heading">ToDo App</h1>
 
       
-      <UseReducerMain></UseReducerMain>
-      
+      <ParentComponet></ParentComponet>
       
 
 
@@ -51,6 +51,7 @@ function App() {
         ===   HOOKS ==
         <CUSTOOMHOOK></CUSTOOMHOOK>
         <UseRefHook></UseRefHook>
+       <UseReducerMain></UseReducerMain>
         ===============
         === FROM ==
         <From></From>

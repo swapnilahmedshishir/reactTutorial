@@ -13,7 +13,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 // import From_Data_Collect from "./component/FROM/From_Data_Collect";
 // import From from "./component/FROM/From";
 // import { Passing_data_prent } from "./component/State_Lifting/Passing_data_prent";
-// import { Formik } from "./component/Formik/Formik";
+ import { Formik } from "./component/Formik/Formik";
 // import { Toggle } from "./component/Toggle/Toggle";
 // import { FAQS } from "./component/FAQ/FAQS";
 // import { UseEffect } from "./component/Fetch_data_useEffect/UseEffect";
@@ -24,6 +24,8 @@ import UseRefHook from './component/HOOKS/useRef_Hooks/UseRefHook';
 import UseReducer from "./component/HOOKS/UseReducer";
 import UseReducerMain from "./component/HOOKS/UseReducer/UseReducerMain";
 import ParentComponet from "./component/HOOKS/useContext/ParentComponet";
+import MangementApp from "./User Management App using Context API/MangementApp";
+import ReactRouterDom from "./component/ReactRouterDom/ReactRouterDom";
 
 function App() {
   // console.log(Data);
@@ -32,9 +34,9 @@ function App() {
       <h1 className="heading">ToDo App</h1>
 
       
-      <ParentComponet></ParentComponet>
+      <ReactRouterDom></ReactRouterDom>
       
-
+     
 
 
 
@@ -52,10 +54,12 @@ function App() {
         <CUSTOOMHOOK></CUSTOOMHOOK>
         <UseRefHook></UseRefHook>
        <UseReducerMain></UseReducerMain>
+       <ParentComponet></ParentComponet>
         ===============
         === FROM ==
         <From></From>
         <From_Data_Collect></From_Data_Collect>
+        <Formik></Formik>
         <Formik></Formik>
         <Passing_data_prent></Passing_data_prent>
         ==============
@@ -65,6 +69,9 @@ function App() {
         <UpadateState></UpadateState>
         <State></State>
         <UseReducer></UseReducer>
+
+        +================= Project work useReducer ===========
+         <MangementApp></MangementApp>
         
 
         ==============

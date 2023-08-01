@@ -1,5 +1,6 @@
 import React, { useState ,useEffect } from 'react'
-import { useParams } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
+import Pagetitle from '../../Helmet/pagetitle';
 
 const Blog = () => {
     const {title} = useParams();
@@ -25,13 +26,15 @@ const Blog = () => {
 //   const {description,content,urlToImage,url} = blogs[0];
     // console.log(blogs[0].content);
   return (
-    <div>
-      <h1>{title}</h1>      
+    <div className='container p-5'>
+      <Pagetitle title={'Blog post'}/>
+      <h1 className='p-5'>{title}</h1>      
       {blogs ? (
         <div>
             <img src={blogs[0].urlToImage}/>
-            <p>{blogs[0].description}</p>
-            <p>{blogs[0].content}</p>
+            <p className='p-4'>{blogs[0].description}</p>
+            <p className='p-4'>{blogs[0].content} <Link to={blogs[0].url} target='_blank'>See Details</Link></p>
+            
         </div>
       ): (
         <h1>Blog Loading...</h1>

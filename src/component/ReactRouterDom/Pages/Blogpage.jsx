@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom';
 import '../ReactRouterDom.css'
+import Pagetitle from '../Helmet/pagetitle';
 
 const Blogpage = () => {
   const [data, setData] = useState(null);
@@ -21,6 +22,7 @@ const Blogpage = () => {
     fetchData(); 
   }, []);  
 
+  console.log(data)
 
   const trunkSting = (str, num )=> {
     if(str.length > num ){
@@ -31,6 +33,7 @@ const Blogpage = () => {
   }
     return (
     <div>
+      <Pagetitle title={'Blog Page'}/>
       <h1>Blog  page</h1>
       <section>          
       {data ? (
